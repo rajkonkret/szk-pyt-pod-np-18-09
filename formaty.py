@@ -46,3 +46,15 @@ print(f"Używamy wersji Pythona {wersja:.0f}")
 # Używamy wersji Pythona 3.1
 # Używamy wersji Pythona 3
 # 13:30
+
+print(f"{user:>10}")  # "     Tomek" - uzupelniony spacjami do długosci 10, spacje z lewej
+print(f'{user:>20}')  # "               Tomek"
+print(f'{user:<30}')  # "Tomek                         "
+print(f"{user:^10}")  # "  Tomek   " - wypośrodkowany
+
+print(liczba)  # 134567456234 - int
+print("Nasza duża liczba {:,}".format(liczba))  # Nasza duża liczba 134,567,456,234
+print("Nasza duża liczba {:,}".format(liczba).replace(",", "."))  # Nasza duża liczba 134.567.456.234
+print("Nasza duża liczba {:,}".format(liczba).replace(",", " "))  # Nasza duża liczba 134 567 456 234
+print(f"Nasza duża liczba {liczba:,}")  # Nasza duża liczba 134,567,456,234
+print(f"Nasza duża liczba {liczba:,}".replace(",", " "))  # Nasza duża liczba 134 567 456 234
