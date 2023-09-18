@@ -46,4 +46,4 @@ print(lista[2:])  # ['Jaśko', 'Zenek', 'Marta'] 2..konca
 print(lista[:3])  # ['radek', 'Maciek', 'Jaśko'] poczatek..2
 print(lista[7:9])  # []
 print(lista[1:3])  # ['Maciek', 'Jaśko'] od 1..2
-# 14:50
+# 14:5
