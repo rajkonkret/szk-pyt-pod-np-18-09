@@ -28,3 +28,4 @@ while True:
 
 print(lista)  # ['5', '4', '3', '2'] lista stringów
 print(lista2)  # [5, 4, 3, 2] lista intow
+# 15:07
