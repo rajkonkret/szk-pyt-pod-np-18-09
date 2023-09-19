@@ -13,3 +13,4 @@ zbior.add(33)  # add() - dodanie elemntu do zbioru
 zbior.add(18)
 zbior.add(18)
 print(zbior)  # {33, 66, 777, 11, 44, 18, 22, 55}
+# test
