@@ -27,3 +27,5 @@ allparams(1, 2, 3, 12, 3, 4, a=0, abc='xyz', root='/', e=98)
 # c, d 3 256
 # args (12, 3, 4)
 # kwargs {'a': 0, 'abc': 'xyz', 'root': '/', 'e': 98}
+# 13:30
+# mogą byc tylko raz *args i raz **kwargs
