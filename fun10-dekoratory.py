@@ -3,7 +3,7 @@
 
 def dekor(funk):
     def wew():
-        result = funk()
+        result = funk()  # wywołanie funkcji hej
         print("Dekorujemy")
         # return funk()
         return result
