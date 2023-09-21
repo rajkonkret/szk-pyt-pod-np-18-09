@@ -2,13 +2,14 @@ import pandas as pd
 import numpy as np
 import openpyxl
 import xlwt
+
 technologies = ['Spark', 'Pandas', 'Python', 'PHP']
 fee = [25000, 20000, 15000, 18000]
 duration = ['50 Days', '35 Days', np.nan, '30 Days', '30 Days']
 discount = [2000, 1000, 800, 500, 500]
 columns = ['Courses', 'Fee', 'Duration', 'Discount']
 
-df = pd.DataFrame(list(zip(technologies, fee, duration,discount)),
+df = pd.DataFrame(list(zip(technologies, fee, duration, discount)),
                   columns=columns)
 
 print(df)
@@ -19,3 +20,4 @@ print(df)
 # 3     PHP  18000  30 Days       500
 
 df.to_excel('Courses.xlsx')
+df.to_excel('Courses.xls', engine='openpyxl')
