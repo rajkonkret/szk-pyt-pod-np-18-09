@@ -13,3 +13,4 @@ except MyException:
     print("Wystapil wyjątek MyException")  # Wystapil wyjątek MyException
 except Exception as e:
     print("Bład", e)
+# 13:25
