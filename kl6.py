@@ -22,6 +22,7 @@ class Kierownik(Pracownik):
 
     def oblicz_pensje(self):
         return self.pensja + self.premia
+        # return super().oblicz_pensje()
 
 
 pracownik = Pracownik("Jan", "Kowalski", 4000)
@@ -34,8 +35,9 @@ print(f"Wynagrodzenie dla pracownika: {pracownik.imie} {pracownik.nazwisko}: wyn
 kierownik = Kierownik("Anna", "Nowak", 6000, 2000)
 kierownik.przedstaw_sie()
 wyn_kier = kierownik.oblicz_pensje()
-print(f"Wynagrodzenie dla kierownika: {kierownik.imie} {kierownik.nazwisko}: wynagrodzenie {wyn_pac}")
+print(f"Wynagrodzenie dla kierownika: {kierownik.imie} {kierownik.nazwisko}: wynagrodzenie {wyn_kier}")
 # Cześć, jestem Jan Kowalski
 # Wynagrodzenie dla pracownika: Jan Kowalski: wynagrodzenie 4000
 # Cześć, jestem Anna Nowak
 # Wynagrodzenie dla kierownika: Anna Nowak: wynagrodzenie 4000
+# 11:20
