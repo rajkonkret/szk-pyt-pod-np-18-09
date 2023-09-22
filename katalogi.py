@@ -26,7 +26,7 @@ for filename in ('ex1.txt', 'ex2.txt', 'ex3.txt'):
 # przeniesienie katalogu
 shutil.move(path_b, path_d)
 ex1 = path_d / 'ex1.txt'
-ex1.rename(ex1.parent / 'ex1renamed.log')
+ex1.rename(ex1.parent / 'ex1renamed.log')  # zmiana nazwy pliku
 
 print(base_path.absolute())
 print(base_path2.absolute())
