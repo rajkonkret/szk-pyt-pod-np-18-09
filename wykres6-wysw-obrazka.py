@@ -10,3 +10,4 @@ from PIL import Image
 
 image = Image.open('user_photo.jpg')
 image.show()
+# 14:40
