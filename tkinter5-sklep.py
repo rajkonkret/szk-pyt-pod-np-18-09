@@ -47,3 +47,6 @@ class Sklep:
 okno = tk.Tk()
 sklep = Sklep(okno)
 okno.mainloop()
+
+# pip freeze > requinments.txt
+# pip install -r requinments.txt
