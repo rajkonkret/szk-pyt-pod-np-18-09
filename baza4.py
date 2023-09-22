@@ -46,3 +46,4 @@ finally:
         print("Baza danych został zamknięta")
 
 # 11:25 test
+# 12:05
