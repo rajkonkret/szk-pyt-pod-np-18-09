@@ -50,3 +50,4 @@ okno.mainloop()
 
 # pip freeze > requinments.txt
 # pip install -r requinments.txt
+# pip install pyinstaller
