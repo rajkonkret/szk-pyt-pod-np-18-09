@@ -31,3 +31,4 @@ ex1.rename(ex1.parent / 'ex1renamed.log')
 print(base_path.absolute())
 print(base_path2.absolute())
 # C:\Users\CSComarch\PycharmProjects\szk-pyt-pod-np-18-09\ops_example
+# 13:30
